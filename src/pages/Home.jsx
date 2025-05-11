@@ -6,7 +6,7 @@ import Portfolio from "./Portfolio"
 import Blog from "./Blog"
 import Service from "./Service"
 import ProjectIdia from "../components/home/ProjectIdia"
-import WhatDoExp from "../components/home/WhatDoExp"
+import Clients from "../components/home/Clients"
 
 const Home = () => {
   return (
@@ -17,8 +17,8 @@ const Home = () => {
       <Portfolio />
       <ProjectIdia />
       <Blog />
-      <WhatDoExp />
       <Service />
+      <Clients />
     </>
   );
 };
