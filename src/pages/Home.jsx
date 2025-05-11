@@ -8,6 +8,7 @@ import Service from "./Service"
 import ProjectIdia from "../components/home/ProjectIdia"
 import Clients from "../components/home/Clients"
 import Testimonial from "../components/home/Testimonial"
+import FormValidation from "../components/home/FormValidation"
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Service />
       <Clients />
       <Testimonial />
+      <FormValidation />
     </>
   );
 };
