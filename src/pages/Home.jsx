@@ -7,6 +7,7 @@ import Blog from "./Blog"
 import Service from "./Service"
 import ProjectIdia from "../components/home/ProjectIdia"
 import Clients from "../components/home/Clients"
+import Testimonial from "../components/home/Testimonial"
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Blog />
       <Service />
       <Clients />
+      <Testimonial />
     </>
   );
 };
