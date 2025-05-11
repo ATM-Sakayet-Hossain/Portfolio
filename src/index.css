@@ -14,12 +14,14 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 48px;
   font-weight: 600;
+  line-height: 56px;
   color: #132238;
 }
 @utility secondary{
   font-family: "Work Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 24px;
   color: #556070;
 }
 
@@ -30,6 +32,7 @@ body {
   --color-nav: #333333;
   --color-bandSecond: #edd8ff;
   --font-workSans: "Work Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
 }
 a {
   @apply inline-block;
