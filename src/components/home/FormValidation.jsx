@@ -5,14 +5,40 @@ const FormValidation = () => {
   return (
     <section>
       <div className="container">
-        <div className="flex">
-          <div className="w-220">
+        <div className="flex justify-between p-22 bg-white rounded-2xl shadow-2xl">
+          <div className="w-150">
             <h2 className="heading">Let’s discuss your Project</h2>
             <p className="secondary w-120">
               There are many variations of passages of Lorem Ipsu available. but
               the majority have suffered alte.
             </p>
-            <div className="py-9">
+            <div className="py-9 grid grid-cols-1 gap-3">
+              <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
+                <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
+                  <SlLocationPin />
+                </span>
+                <div>
+                  <small className="font-poppins font-normal text-lg text-secondary">
+                    Address:
+                  </small>
+                  <p className="font-poppins font-semibold text-lg text-praimary ">
+                    New Mexico 31134
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
+                <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
+                  <SlLocationPin />
+                </span>
+                <div>
+                  <small className="font-poppins font-normal text-lg text-secondary">
+                    Address:
+                  </small>
+                  <p className="font-poppins font-semibold text-lg text-praimary ">
+                    New Mexico 31134
+                  </p>
+                </div>
+              </div>
               <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
                 <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
                   <SlLocationPin />
@@ -28,7 +54,7 @@ const FormValidation = () => {
               </div>
             </div>
           </div>
-          <div className="w-140">
+          <div className="w-150">
             <p>
               There are many variations of passages of Lorem Ipsu available, but
               the majority have suffered alte.
