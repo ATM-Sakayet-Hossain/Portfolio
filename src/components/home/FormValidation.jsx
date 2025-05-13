@@ -55,10 +55,20 @@ const FormValidation = () => {
             </div>
           </div>
           <div className="w-140">
-            <p className="secondary ">
+            <p className="secondary pb-12.5 ">
               There are many variations of passages of Lorem Ipsu available, but
               the majority have suffered alte.
             </p>
+            <form className="grid grid-cols-1">
+              <input type="text" placeholder="Name" required className="py-2 pl-4 broder-b-1" />
+              <input type="email" placeholder="Email" required />
+              <input type="text" placeholder="Location" />
+              <div className="grid grid-cols-2">
+                <input type="text" placeholder="Budget" required />
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <input type="text" placeholder="Message" required />
+            </form>
           </div>
         </div>
       </div>
