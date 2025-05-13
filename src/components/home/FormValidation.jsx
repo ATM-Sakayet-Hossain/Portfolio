@@ -54,8 +54,8 @@ const FormValidation = () => {
               </div>
             </div>
           </div>
-          <div className="w-150">
-            <p>
+          <div className="w-140">
+            <p className="secondary ">
               There are many variations of passages of Lorem Ipsu available, but
               the majority have suffered alte.
             </p>
