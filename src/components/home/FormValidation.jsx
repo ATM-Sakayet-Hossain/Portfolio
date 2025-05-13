@@ -1,4 +1,5 @@
 import React from "react";
+import { SlLocationPin } from "react-icons/sl"
 
 const FormValidation = () => {
   return (
@@ -7,10 +8,25 @@ const FormValidation = () => {
         <div className="flex">
           <div className="w-220">
             <h2 className="heading">Let’s discuss your Project</h2>
-            <p>
+            <p className="secondary w-120">
               There are many variations of passages of Lorem Ipsu available. but
               the majority have suffered alte.
             </p>
+            <div className="py-9">
+              <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
+                <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
+                  <SlLocationPin />
+                </span>
+                <div>
+                  <small className="font-poppins font-normal text-lg text-secondary">
+                    Address:
+                  </small>
+                  <p className="font-poppins font-semibold text-lg text-praimary ">
+                    New Mexico 31134
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="w-140">
             <p>
