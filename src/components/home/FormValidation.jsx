@@ -1,5 +1,8 @@
 import React from "react";
 import { SlLocationPin } from "react-icons/sl"
+import UserInformation from "../Utils/UserInformation"
+import { MdMailOutline } from "react-icons/md"
+import { LuPhoneCall } from "react-icons/lu"
 
 const FormValidation = () => {
   return (
@@ -28,27 +31,27 @@ const FormValidation = () => {
               </div>
               <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
                 <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
-                  <SlLocationPin />
+                  <MdMailOutline />
                 </span>
                 <div>
                   <small className="font-poppins font-normal text-lg text-secondary">
-                    Address:
+                    My Email:
                   </small>
                   <p className="font-poppins font-semibold text-lg text-praimary ">
-                    New Mexico 31134
+                    mymail@mail.com
                   </p>
                 </div>
               </div>
               <div className="flex items-center gap-3 p-6 hover:bg-white hover:shadow-xl rounded-[10px]">
                 <span className="px-4 py-3.5 text-2xl text-band hover:text-white bg-[#EDD8FF] hover:bg-band rounded-sm">
-                  <SlLocationPin />
+                  <LuPhoneCall />
                 </span>
                 <div>
                   <small className="font-poppins font-normal text-lg text-secondary">
-                    Address:
+                    Call Me Now:
                   </small>
                   <p className="font-poppins font-semibold text-lg text-praimary ">
-                    New Mexico 31134
+                    00-1234 00000
                   </p>
                 </div>
               </div>
@@ -59,16 +62,7 @@ const FormValidation = () => {
               There are many variations of passages of Lorem Ipsu available, but
               the majority have suffered alte.
             </p>
-            <form className="grid grid-cols-1">
-              <input type="text" placeholder="Name" required className="py-2 pl-4 broder-b-1" />
-              <input type="email" placeholder="Email" required />
-              <input type="text" placeholder="Location" />
-              <div className="grid grid-cols-2">
-                <input type="text" placeholder="Budget" required />
-                <input type="text" placeholder="Subject" required />
-              </div>
-              <input type="text" placeholder="Message" required />
-            </form>
+            <UserInformation />
           </div>
         </div>
       </div>
